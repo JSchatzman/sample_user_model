@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{request.locale_name}}">
+  <head>
+    <title>Sample User Model</title>
+  </head>
+  <body>
+    <h1>This is a sample user model</h1>
+    <a href="/register">Click Here to Register</a>
+    <h2>Below is the current list of users</h2>
+    {% for entry in entries %}
+      <p> UserName: {{entry.username}} </p>
+      <br>
+    {% endfor %}
+  </body>
+</html>

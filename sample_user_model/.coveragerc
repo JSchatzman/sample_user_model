@@ -1,0 +1,3 @@
+[run]
+source = sample_user_model
+omit = sample_user_model/test*
